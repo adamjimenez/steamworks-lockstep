@@ -1,0 +1,156 @@
+Converting GML script: ${project_dir}\scripts\trace\trace.gml
+Converted description /// @description  trace(...)/// @param ...
+
+Converting GML script: ${project_dir}\scripts\draw_rect_ext\draw_rect_ext.gml
+Converted description /// @description  draw_rect_ext(x, y, w, h, c, a)/// @param x
+/// @param  y
+/// @param  w
+/// @param  h
+/// @param  c
+/// @param  a
+
+Converting GML script: ${project_dir}\scripts\parameter_string_all\parameter_string_all.gml
+Converted string - line 7: '"' -> "\""
+Converted string - line 7: '"' -> "\""
+
+Converting GML script: ${project_dir}\scripts\steam_get_user_persona_name_w\steam_get_user_persona_name_w.gml
+Converted description /// @description  steam_get_user_persona_name_w(steam_id)/// @param steam_id
+
+Converting GML script: ${project_dir}\scripts\buffer_print_hex\buffer_print_hex.gml
+Converted description /// @description  buffer_print_hex(buffer, start, length)/// @param buffer
+/// @param  start
+/// @param  length
+
+Converting GML script: ${project_dir}\scripts\keyboard_check_pressed_nc\keyboard_check_pressed_nc.gml
+Converted description /// @description  keyboard_check_pressed_nc(key)/// @param key
+
+Converting GML script: ${project_dir}\scripts\buffer_write_int64\buffer_write_int64.gml
+Converted description /// @description  buffer_write_int64(buffer, long_int)/// @param buffer
+/// @param  long_int
+
+Converting GML script: ${project_dir}\scripts\buffer_read_int64\buffer_read_int64.gml
+Converted description /// @description  buffer_read_int64(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\packet_start\packet_start.gml
+Converted description /// @description  packet_start(type)/// @param type
+
+Converting GML script: ${project_dir}\scripts\packet_send_to\packet_send_to.gml
+Converted description /// @description  packet_send(to, buf)/// @param to
+/// @param  buf
+
+Converting GML script: ${project_dir}\scripts\packet_send_all\packet_send_all.gml
+Converted description /// @description  packet_send_all(buf)/// @param buf
+
+Converting GML script: ${project_dir}\scripts\packet_send_except\packet_send_except.gml
+Converted description /// @description  packet_send_except(buf, except_to_id)/// @param buf
+/// @param  except_to_id
+
+Converting GML script: ${project_dir}\scripts\packet_handle_leaving\packet_handle_leaving.gml
+Converted description /// @description  packet_handle_leaving(steam_id)/// @param steam_id
+
+Converting GML script: ${project_dir}\scripts\chat_add\chat_add.gml
+Converted description /// @description  chat_add(text)/// @param text
+Converted string - line 14: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\scripts\chat_clear\chat_clear.gml
+Converted description /// @description  chat_clear()
+
+Converting GML script: ${project_dir}\scripts\chat_draw\chat_draw.gml
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  chat_draw()
+Converted string - line 36: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\scripts\chat_draw_item\chat_draw_item.gml
+Converted description /// @description  chat_draw_item(x, y, text, color, alpha, width)/// @param x
+/// @param  y
+/// @param  text
+/// @param  color
+/// @param  alpha
+/// @param  width
+
+Converting GML script: ${project_dir}\scripts\chat_init\chat_init.gml
+Converted string - line 1: 'global.chat_lines = ds_list_create();' -> "global.chat_lines = ds_list_create();"
+Converted string - line 2: 'global.chat_sent = ds_list_create();' -> "global.chat_sent = ds_list_create();"
+
+Converting GML script: ${project_dir}\scripts\chat_send\chat_send.gml
+Converted description /// @description  chat_send(msg)/// @param msg
+
+!!! Font fnt_test uses a font (Ubuntu Condensed SemiItalic) not installed on this system - Font has NOT been regenerated
+!!! Font fnt_name uses a font (cc.yal.6w4) not installed on this system - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\obj_game\Draw_0.gml
+Converted builtin - line 2: background_color -> __background_get_colour( )
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_id_create(high, low) : Creates an immutable Steam ID./// @param high
+/// @param  low
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_id_get_high(steam_id) : Returns higher 32 bits of a Steam ID/// @param steam_id
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_id_get_low(steam_id) : Returns lower 32 bits of a Steam ID/// @param steam_id
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_id_equals(id1, id2) : Returns whether two IDs match up./// @param id1
+/// @param  id2
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_id_from_int64(value) : Creates a Steam ID from an int64/// @param value
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_id_to_int64(steam_id) : Converts a Steam ID to int64/// @param steam_id
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_net_check_version() : Returns whether the DLL matches the extension version.
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_net_accept_p2p_session(user_id) : Accepts a P2P session with the given user. Should only be called in the "p2p_session_request" event./// @param user_id
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_net_close_p2p_session(user_id) : Closes the P2P session with the given user (if any)/// @param user_id
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_net_packet_get_sender_id() : Returns the sender ID (int64) of the last received packet.
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_net_packet_get_data(buffer) : Copies the current packet data to the given buffer./// @param buffer
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_net_packet_send(steam_id, buffer, size, type) : Sends a packet to the given destination./// @param steam_id
+/// @param  buffer
+/// @param  size
+/// @param  type
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_lobby_join_id(steam_id) : Joins the given lobby/// @param steam_id
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_lobby_get_owner_id() : Returns the user ID of the authoritative user in the lobby.
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_lobby_get_member_id(index) : Returns the user ID of the given user in the lobby./// @param index
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_lobby_list_get_lobby_id(index) : Returns the ID of the given lobby./// @param index
+
+Converting GML script: Steamworks.gml.gml
+Converted description /// @description  steam_net_init_gml()
+
+Detected a Linux Steam App ID: The Steam App ID is now in one place - Main Options, please ensure it is correct
+Detected a Mac Steam App ID: The Steam App ID is now in one place - Main Options, please ensure it is correct
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Detected a Windows Steam App ID: The Steam App ID is now in one place - Main Options, please ensure it is correct
+Game speed set to 60
+Added compatibility script 'background/__background_get_colour.gml'
+Added compatibility script 'background/__background_get_colour_element.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
