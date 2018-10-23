@@ -7,3 +7,7 @@ It's well suited to games that can tolerate higher latency such as strategy game
 You will need the [Steamworks SDK](https://partner.steamgames.com/doc/sdk) installed in order to run.
 This is alpha status so expect some bugs.
 
+Attributions
+Steamworks.gml by YellowAfterlife
+Lockstep by Meseta
+Input-Dog by Messhof
