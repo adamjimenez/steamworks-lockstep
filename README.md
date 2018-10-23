@@ -8,6 +8,6 @@ You will need the [Steamworks SDK](https://partner.steamgames.com/doc/sdk) insta
 This is alpha status so expect some bugs.
 
 Attributions
-Steamworks.gml by YellowAfterlife
-Lockstep by Meseta
-Input-Dog by Messhof
+* Steamworks.gml by YellowAfterlife
+* Lockstep by Meseta
+* Input-Dog by Messhof
